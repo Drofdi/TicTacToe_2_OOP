@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+   }
+
+.wrapper {
+    color: aliceblue;
+    height: 100vh;
+    background: url(img/back.jpg);
+    background-size: cover;
+}
+
+.title {
+    color: rgb(255, 247, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 15vh;
+    font-size: 30px;
+}
+
+.wrap__cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+    width: 700px;
+    height: 697px;
+}
+
+.game_div {
+    width: 230px;
+    height: 230px;
+    border: 2px ridge rgb(255, 230, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.game_div:hover {
+    background-color: blueviolet;
+    transition: 1s;
+    opacity: .5;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+    padding-right: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.restart {
+    height: 60px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.restart:hover {
+    background-color: rgb(255, 230, 0);
+    color: blueviolet;
+}
+
+.winLine {
+    background-color: rgb(116, 0, 145);
+}
+
+ .game1 {
+    border-top: none;
+    border-left: none;
+    border-top-left-radius: 80px;
+}
+
+.game2 {
+    border-top: none;
+}
+
+.game3 {
+    border-top: none;
+    border-right: none;
+    border-top-right-radius: 80px;
+}
+
+.game4 {
+    border-left: none;
+}
+
+.game6 {
+    border-right: none;
+}
+
+.game7 {
+    border-left: none;
+    border-bottom: none;
+    border-bottom-left-radius: 80px;
+}
+
+.game8 {
+    border-bottom: none;
+}
+
+.game9 {
+    border-bottom: none;
+    border-right: none;
+    border-bottom-right-radius: 80px;
+} 
